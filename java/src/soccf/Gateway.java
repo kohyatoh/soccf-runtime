@@ -15,8 +15,10 @@
  */
 package soccf;
 
+import net.klazz.soccf.runtime.Collector;
+
 public class Gateway {
-  private static Collector sCollector = new DefaultCollector();
+  private static Collector sCollector;
 
   public static synchronized Collector getCollector() {
     return sCollector;

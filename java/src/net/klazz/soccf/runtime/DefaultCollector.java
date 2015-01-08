@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package soccf;
+package net.klazz.soccf.runtime;
+
 
 public class DefaultCollector implements Collector, Reporter {
   private final CoverageCounter mCounter;

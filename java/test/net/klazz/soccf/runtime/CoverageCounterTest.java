@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package soccf;
+package net.klazz.soccf.runtime;
 
 import static org.junit.Assert.*;
 
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+
+import net.klazz.soccf.runtime.CoverageCounter;
 
 import org.junit.Test;
 

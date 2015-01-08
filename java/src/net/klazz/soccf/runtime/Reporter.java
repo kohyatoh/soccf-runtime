@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package soccf;
+package net.klazz.soccf.runtime;
 
-public interface Collector {
-  public void stmt(int id);
-  public void branch(int id, boolean value);
+public interface Reporter {
+  public int getCoveredStatements();
+  public int getCoveredBranches();
 }

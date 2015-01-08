@@ -1,4 +1,4 @@
-<project name="soccf" default="dist" basedir=".">
+<project name="soccf-runtime" default="dist" basedir=".">
     <description>
         simple example build file
     </description>
@@ -19,7 +19,7 @@
   </target>
 
   <target name="dist" depends="compile">
-    <jar jarfile="${build}/soccf.jar" basedir="${build}/classes"/>
+    <jar jarfile="${build}/soccf-runtime.jar" basedir="${build}/classes"/>
   </target>
 
   <target name="clean">
